@@ -5,7 +5,7 @@ function Nav() {
 
     return (
         <header className="flex-row">
-            <h2>
+            <h2 className="mx-2">
                 <a href="/">
                     Patrick Sachleben
                 </a>
@@ -23,7 +23,7 @@ function Nav() {
                         </a>
                     </li>
                     <li className="mx-2">
-                        <a href="#Resume">
+                        <a href="#resume">
                             Resume
                         </a>
                     </li>
