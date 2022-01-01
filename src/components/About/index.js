@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import personalPhoto from '../../assets/0517-0047.jpg'
 
 function About() {

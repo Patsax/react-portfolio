@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Nav() {
-
 
     return (
         <header className="flex-row">
@@ -23,13 +22,8 @@ function Nav() {
                         </a>
                     </li>
                     <li className="mx-2">
-                        <a href="#resume">
+                        <a href="../../assets/resume.pdf" target="_blank">
                             Resume
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#contact">
-                            Contact Me
                         </a>
                     </li>
                 </ul>
