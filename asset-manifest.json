@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.75429863.css",
+    "main.js": "/react-portfolio/static/js/main.88fb6c6a.js",
+    "static/js/787.cf250828.chunk.js": "/react-portfolio/static/js/787.cf250828.chunk.js",
+    "static/media/0517-0047.jpg": "/react-portfolio/static/media/0517-0047.aad46c304ce80fa1e109.jpg",
+    "static/media/git-it-done-screen.png": "/react-portfolio/static/media/git-it-done-screen.75ed0b4e58f32468f811.png",
+    "static/media/Taskinator-screen.png": "/react-portfolio/static/media/Taskinator-screen.f788e8aa18140c1c35ab.png",
+    "static/media/Night-Picks-screenshot.png": "/react-portfolio/static/media/Night-Picks-screenshot.5b59e39caa653be3ba12.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.75429863.css.map": "/react-portfolio/static/css/main.75429863.css.map",
+    "main.88fb6c6a.js.map": "/react-portfolio/static/js/main.88fb6c6a.js.map",
+    "787.cf250828.chunk.js.map": "/react-portfolio/static/js/787.cf250828.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75429863.css",
+    "static/js/main.88fb6c6a.js"
+  ]
+}
