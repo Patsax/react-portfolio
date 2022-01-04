@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
-
     return (
         <header className="flex-row">
             <h2 className="mx-2">
@@ -10,23 +10,17 @@ function Nav() {
                 </a>
             </h2>
             <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about">
-                            About Me
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#portfolio">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="../../assets/resume.pdf" target="_blank">
-                            Resume
-                        </a>
-                    </li>
-                </ul>
+                <Link className="nav-link active" aria-current="page" to="/">
+                    About Me
+                </Link>
+
+                <Link className="nav-link" aria-current="page" to="/portfolio">
+                    Portfolio
+                </Link>
+
+                <Link className="nav-link" aria-current="page" to="/resume">
+                    Resume
+                </Link>
             </nav>
         </header>
     )

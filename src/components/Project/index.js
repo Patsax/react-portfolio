@@ -4,8 +4,8 @@ function Project (props) {
     console.log(props);
     return (
         <>
-            <div className="" key={props.projects.title}>
-                <img src={require(`../../assets/images/${props.projects.title}.png`).default} alt="deployed project" />
+            <div className="card" key={props.projects.title}>
+                <img src={require(`../../assets/${props.projects.title}.png`).default} alt="deployed project" />
                 <div>
                     <h1>
                         {props.projects.title}
@@ -15,7 +15,7 @@ function Project (props) {
                             github link
                         </a>
                         <br/>
-                        <a href={props.prjects.deploy}>
+                        <a href={props.projects.deploy}>
                             deployed app
                         </a>
                     </p>

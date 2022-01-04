@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import personalPhoto from '../../assets/0517-0047.jpg'
 
 function About() {
     return (
-
-        
         <section className="my-5 main">
             <h1 id="about">Who am I?</h1>
 
